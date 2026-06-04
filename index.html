@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IEEE Student Branch | Career Point University, Kota</title>
+  <meta name="description" content="IEEE Student Branch at Career Point University, Kota. Innovate. Learn. Lead." />
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="#home">
+          <img src="logo.png" alt="IEEE CPU Kota Logo" class="nav-logo-img">
+          <div class="logo-text">
+
+          </div>
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-primary">Join Us</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <canvas id="particle-canvas" class="particle-canvas"></canvas>
+    <div class="hero-content">
+      <h1 class="hero-title">IEEE Student Branch</h1>
+      <h2 class="hero-subtitle">Career Point University, Kota</h2>
+      <p class="tagline">Innovate. Learn. Lead.</p>
+      <div class="hero-buttons">
+        <a href="#events" class="btn btn-outline">Explore Events</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-header center">
+        <h2 class="section-title">Who We Are</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text fade-in">
+          <p>
+            The IEEE Student Branch at Career Point University (CPU), Kota is a vibrant community of passionate
+            engineering and technology students. We are dedicated to the advancement of technology for the benefit of
+            humanity.
+          </p>
+          <p>
+            Our mission is to foster technological innovation and excellence by providing members with unparalleled
+            opportunities to network, develop skills, and engage in cutting-edge technical projects.
+          </p>
+          <div class="stats-ribbon">
+            <div class="stat">
+              <span class="stat-num"><span class="stat-num-val" data-target="50">0</span>+</span>
+              <span class="stat-text">Active Members</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num"><span class="stat-num-val" data-target="5">0</span>+</span>
+              <span class="stat-text">Events Annually</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image fade-in">
+          <img src="about_us_tech.png" alt="Engineering students collaborating" class="image-placeholder"
+            style="object-fit: cover;" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events" class="events section bg-gray">
+    <div class="container fade-in">
+      <div class="section-header center">
+        <h2 class="section-title">Featured Events</h2>
+        <p class="section-subtitle">Discover our upcoming and past activities designed to skill up our community.</p>
+      </div>
+
+      <div class="events-grid">
+        <!-- Event Card 1 -->
+        <div class="card event-card">
+
+          <div class="event-content">
+            <span class="event-category">Workshop</span>
+            <h3 class="event-title">Agentic AI</h3>
+            <p class="event-date"><i class="far fa-calendar-alt"></i> April 11, 2026</p>
+            <p class="event-desc">Building Intelligent Agents with LangChain & CrewAl" provided students with hands-on
+              exposure to Al agents, prompt engineering, and real-world applications.</p>
+            <a href="#" class="btn btn-secondary btn-sm">Read More</a>
+          </div>
+        </div>
+        <!-- Event Card 2 -->
+        <div class="card event-card">
+          <div class="event-content">
+            <span class="event-category">Tech Event</span>
+            <h3 class="event-title">Tech Talks</h3>
+            <p class="event-date"><i class="far fa-calendar-alt"></i> April 18, 2026</p>
+            <p class="event-desc">Participants independently research a technology topic of their choice and deliver a
+              focused, structured PowerPoint presentation within a defined time limit, simulating real-world technical
+              communication scenarios.</p>
+            <a href="#" class="btn btn-secondary btn-sm">Read More</a>
+          </div>
+        </div>
+        <!-- Event Card 3 -->
+        <div class="card event-card">
+
+          <div class="event-content">
+            <span class="event-category">Tech Event</span>
+            <h3 class="event-title">Tech Clash</h3>
+            <p class="event-date"><i class="far fa-calendar-alt"></i> April 18, 2026</p>
+            <p class="event-desc">Tech Clash is a structured technical debate competition where students argue for or
+              against pressing technology-related issues. The event is designed to sharpen critical thinking, analytical
+              reasoning, and real-time persuasive communication skills through competitive debate.</p>
+            <a href="#" class="btn btn-secondary btn-sm">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="team section bg-gray">
+    <div class="container fade-in">
+      <div class="section-header center" style="margin-bottom: 3rem;">
+        <h2 class="section-title">Faculty Mentors</h2>
+        <p class="section-subtitle">Guiding the continuous evolution and growth of our student branch.</p>
+      </div>
+
+      <div class="faculty-grid">
+        <div class="faculty-card fade-in">
+          <div class="faculty-avatar">AK</div>
+          <div class="faculty-info">
+            <h3>Dr. Awanit Kumar</h3>
+            <span class="faculty-role">Branch Counselor</span>
+            <div style="margin-top: 0.8rem; display: flex; gap: 1rem;">
+              <a href="https://www.linkedin.com/in/dr-awanit-kumar-05016bab/" target="_blank"
+                style="color: #00e5ff; font-size: 1.2rem; transition: color 0.3s;" onmouseover="this.style.color='#fff'"
+                onmouseout="this.style.color='#00e5ff'"><i class="fab fa-linkedin-in"></i></a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-header center" style="margin-top: 4rem;">
+        <h2 class="section-title">Executive Committee</h2>
+        <p class="section-subtitle">Meet the visionary student team leading the IEEE CPU Kota Student Branch.</p>
+      </div>
+      <div class="team-grid">
+        <!-- Team Member 2 -->
+        <div class="team-card">
+          <div class="team-img-wrapper">
+            <div class="team-img-placeholder" title="Rinki">RJ</div>
+            <div class="team-social">
+              <a href="https://www.linkedin.com/in/rinky-jaswani-a6a382355/" target="_blank"><i
+                  class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Rinky Jaswani</h3>
+            <span class="role">Chairperson</span>
+          </div>
+        </div>
+        <!-- Team Member 3 -->
+        <div class="team-card">
+          <div class="team-img-wrapper">
+            <div class="team-img-placeholder" title="Shivani">SH</div>
+            <div class="team-social">
+              <a href="https://www.linkedin.com/in/shivani-hada-8163433b0/" target="_blank"><i
+                  class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/Shivanihada01" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Shivani Hada</h3>
+            <span class="role">Secretary</span>
+          </div>
+        </div>
+        <!-- Team Member 4 -->
+        <div class="team-card">
+          <div class="team-img-wrapper">
+            <div class="team-img-placeholder" title="Yatnesh">YK</div>
+            <div class="team-social">
+              <a href="https://www.linkedin.com/in/yatnesh-khandal-89b340329/" target="_blank"><i
+                  class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/yk0314810-beep" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Yatnesh Khandal</h3>
+            <span class="role">Treasurer</span>
+          </div>
+        </div>
+        <!-- Team Member 5 -->
+        <div class="team-card">
+          <div class="team-img-wrapper">
+            <div class="team-img-placeholder" title="Bhakti">BS</div>
+            <div class="team-social">
+              <a href="https://www.linkedin.com/in/bhakti-shrivastava-892150390/" target="_blank"><i
+                  class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/shrivastavabhakti764-crypto" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Bhakti Shrivastava</h3>
+            <span class="role">Vice Chairperson</span>
+          </div>
+        </div>
+        <!-- Team Member 6 -->
+        <div class="team-card">
+          <div class="team-img-wrapper">
+            <div class="team-img-placeholder" title="Parth">PJ</div>
+            <div class="team-social">
+              <a href="https://www.linkedin.com/in/parth-jain-831663332/" target="_blank"><i
+                  class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/parthjain7721-creator" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Parth Jain</h3>
+            <span class="role">Webmaster</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Extended Team Members -->
+      <div class="team-layout-minimal fade-in" style="margin-top: 5rem; margin-bottom: 3rem;">
+        <div class="section-header" style="text-align: left; max-width: 300px;">
+          <h3 class="section-title" style="font-size: 2.2rem;">Team Members</h3>
+          <p class="section-subtitle">Dedicated volunteers contributing to our success.</p>
+        </div>
+
+        <ul class="team-list-minimal">
+          <li>Yash</li>
+          <li>Jane Smith</li>
+          <li>Mike Ross</li>
+          <li>Sarah Zane</li>
+          <li>Alex Lee</li>
+          <li>Emma Stone</li>
+          <li>David Tennant</li>
+          <li>Oliver Pope</li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section bg-gray">
+    <div class="container fade-in">
+      <div class="section-header center">
+        <h2 class="section-title"
+          style="color: var(--color-primary-navy); background: none; -webkit-text-fill-color: var(--color-primary-navy);">
+          Get in Touch</h2>
+        <p class="section-subtitle" style="margin-top: 1rem;">Have questions or want to join? Reach out to us!</p>
+      </div>
+
+      <div class="contact-grid-modern">
+        <!-- Contact Info Left Side -->
+        <div class="contact-info-block">
+          <div class="contact-method">
+            <div class="method-icon"><i class="fas fa-envelope"></i></div>
+            <div class="method-text">
+              <h4>Email</h4>
+              <p>ieeecpu@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-method">
+            <div class="method-icon"><i class="fas fa-phone-alt"></i></div>
+            <div class="method-text">
+              <h4>Phone</h4>
+              <p>+91 9636538572</p>
+            </div>
+          </div>
+
+          <div class="contact-method">
+            <div class="method-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="method-text">
+              <h4>Address</h4>
+              <p>Career Point University, Alaniya, Kota, Rajasthan 325003</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form Right Side -->
+        <div class="contact-form-block">
+          <form class="contact-form-modern">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary btn-full">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid fade-in" style="grid-template-columns: 1.5fr 1fr;">
+        <div class="footer-col about-col">
+          <div class="footer-brand">
+            <h3 class="footer-brand-title">IEEE Student Branch</h3>
+            <h4 class="footer-brand-subtitle">Career Point University</h4>
+            <span class="footer-brand-location"><i class="fas fa-map-marker-alt"></i> Alaniya, Kota</span>
+          </div>
+          <p>Empowering students to innovate, learn, and lead in the ever-evolving world of technology.</p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/ieee-cpu" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/ieeecpuofficial?igsh=cGFzeGx1YWJvenVh" target="_blank"><i
+                class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col links-col"
+          style="display: flex; flex-direction: column; align-items: flex-end; text-align: right;">
+          <h3>Quick Links</h3>
+          <ul style="padding-right: 0;">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#team">Our Team</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 IEEE Student Branch, Career Point University, Kota. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

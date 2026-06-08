@@ -798,9 +798,8 @@ ul {
   list-style: none;
   flex: 1;
   display: grid;
-  grid-template-rows: repeat(6, auto);
-  grid-auto-flow: column;
-  gap: 1.5rem 4rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 3rem;
   justify-content: flex-start;
 }
 
@@ -827,13 +826,43 @@ ul {
 .team-list-minimal li {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  gap: 0.6rem;
   font-size: 1.05rem;
   color: var(--color-primary-navy);
   font-weight: 600;
   position: relative;
   padding-left: 20px;
+  white-space: nowrap;
   transition: all var(--transition-speed);
+}
+
+.team-list-minimal li a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  font-size: 0.85rem;
+  color: var(--color-primary-navy);
+  background: rgba(10, 38, 102, 0.08);
+  transition: all var(--transition-speed);
+  flex-shrink: 0;
+}
+
+.team-list-minimal li a:first-of-type {
+  color: #0077b5;
+  background: rgba(0, 119, 181, 0.1);
+}
+
+.team-list-minimal li a:last-of-type {
+  color: #333;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.team-list-minimal li a:hover {
+  transform: scale(1.2);
+  box-shadow: var(--shadow-sm);
 }
 
 .team-list-minimal li::before {
